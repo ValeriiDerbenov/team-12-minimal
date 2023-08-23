@@ -5,15 +5,14 @@
   margin: 0 auto;
   outline: 2px solid green;
 }
-.hero {
-  /* padding-top: 140px; */
+.hero { 
   background-repeat: no-repeat;
   background-position: top;
   max-width: 375px;
   min-height: 717px;
   margin: 0 auto;
   background-image: 
-  url(/images/hero-mobile.jpg);
+  url(/img/hero/hero-mobile.jpg);
   background-size: auto 717px;
   outline: 2px dashed red;
 }
@@ -70,8 +69,8 @@
 		height: 531px;
     max-width: 768px;
 		background-image: 
-  url(/images/hero-tablet1.jpg),
-  url(/images/hero-tablet2.jpg);
+		url(../img/hero/hero-tablet1.jpg),
+		url(../img/hero/hero-tablet2.jpg);
 	background-position:
     32px bottom,
     372px bottom;
@@ -106,9 +105,9 @@
 			height: 531px;
 			max-width: 1440px;
 			background-image: 
-		url(/images/hero-desktop1.jpg),
-		url(/images/hero-desktop2.jpg),
-		url(/images/hero-desktop3.jpg);
+		url(/img/hero/hero-desktop1.jpg),
+		url(/img/hero/hero-desktop2.jpg),
+		url(/img/hero/hero-desktop3.jpg);
 		background-position:
 			60px bottom,
 			395px bottom,
@@ -129,8 +128,8 @@ screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
 screen and (min-width: 768px) and (min-resolution: 192dpi), 
 screen and (min-width: 768px) and (min-resolution: 2dppx) {
 	.hero .container {
-		background-image: url(/images/hero-tablet1-2x.jpg),
-		 url(/images/hero-tablet2-2x.jpg);
+		background-image: url(/img/hero/hero-tablet1-2x.jpg),
+		 url(/img/hero/hero-tablet2-2x.jpg);
 	}
 }
 @media screen and (min-width: 1440px) and (min-device-pixel-ratio: 2), 
@@ -138,8 +137,8 @@ screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 2),
 screen and (min-width: 1440px) and (min-resolution: 192dpi), 
 screen and (min-width: 1440px) and (min-resolution: 2dppx) {
 	.hero .container {
-			background-image: url(/images/hero-desktop1-2x.jpg),
-			 url(/images/hero-desktop2-2x.jpg),
-			 url(/images/hero-desktop3-2x.jpg);
+		background-image: url(/img/hero/hero-desktop1-2x.jpg),
+		url(/img/hero/hero-desktop2-2x.jpg),
+		url(../img/hero/hero-desktop3-2x.jpg);
 	}
 }
